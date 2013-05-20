@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
 
     if (score <= 0 || score >= 100) {
         cout << "成績輸入錯誤，分數必定在0~100" << endl;
-        exit(1);
+        return 1; // 還記得我們提過，回傳0代表程式正常結束，而這裡表示意外結束
     }
-
+    
     if (score >= 60) {
         cout << "Pass!" << endl;
     }
