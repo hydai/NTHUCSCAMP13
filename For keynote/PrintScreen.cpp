@@ -1,10 +1,8 @@
 #include <iostream>
 
-#define PI (3.14159)
-
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
     int integer = 0;
     double double_value = 0.0;
@@ -13,8 +11,8 @@ int main(int argc, char *argv[])
     cout << "integer = " << integer << endl;
     cout << "double_value = " << double_value << endl;
 
-    integer = PI;
-    double_value = PI;
+    integer = 3.14159;
+    double_value = 3.14159;
 
     cout << "讓他們等於PI" << endl;
     cout << "integer = " << integer << endl;
@@ -22,3 +20,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
