@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     double double_value = 0.0;
     double PI = 3.14159;
 
-    cout << "預設值" << endl;
+    cout << "By default" << endl;
     cout << "integer = " << integer << endl;
     cout << "double_value = " << double_value << endl;
 
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     integer = XXXX;
     double_value = XXXX;
 
-    cout << "讓他們等於PI" << endl;
+    cout << "Now, they are equal to PI" << endl;
     /*-------------------------------------------------------------------
      * 以下要分別印出integer、double_value等於PI的值
      * 請使用cout寫寫看(把XXX取代掉)

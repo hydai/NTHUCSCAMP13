@@ -7,7 +7,7 @@ int main()
     int intA, intB;
     double doubleA, doubleB;
 
-    cout << "請輸入整數的A, B，將會輸出A, B的四則運算(B不能為零)" << endl;
+    cout << "Enter two integers A, B. Output the Arithmetic(B CANNOT BE 0)" << endl;
     cin >> intA >> intB;
     cout << "A + B = " << intA+intB << endl;
     /*-------------------------------------------------------------------
@@ -18,7 +18,7 @@ int main()
     cout << "A / B = " << XXXX << endl;
     cout << "A % B = " << XXXX << endl;
 
-    cout << "請輸入浮點數的A, B，將會輸出A, B的四則運算(B不能為零)" << endl;
+    cout << "Enter two double values A, B. Output the Arithmetic(B CANNOT BE 0)" << endl;
     cin >> doubleA >> doubleB;
     cout << "A + B = " << doubleA + doubleB << endl;
     /*-------------------------------------------------------------------
@@ -27,6 +27,6 @@ int main()
     cout << "A - B = " << XXXX << endl;
     cout << "A * B = " << XXXX << endl;
     cout << "A / B = " << XXXX << endl;
-    cout << "只有整數形態有%這個運算子" << endl;
+    cout << "Double values doesn't include operator%!" << endl;
     return 0;
 }
